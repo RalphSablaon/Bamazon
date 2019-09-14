@@ -17,10 +17,10 @@ VALUES (9, "Phone Charger USB Cable", "Electronics", 9.99, 50),
         (13, "Teddy Bear", "Toys", 14.99, 300),
         (76, "Wireless Controller", "Video Games", 59.99, 2000),
         (145, "Wireless Bluetooth Headphones", "Electronics", 129.99, 5000),
-        (285, "Playstation 4 w/ 3 Games Bundle", "Video Games", 499.99, 0),
+        (285, "Playstation 4 w/ 3 Games Bundle", "Video Games", 499.99, 10),
         (583, "Fidget Spinner", "Toys", 2.99, 50000),
         (872, "Call of Duty Console Game", "Video Games", 9.99, 20000),
-        (1004, "Pioneer XDJ-RR DJ System", "Electronics", 999.99, 0),
+        (1004, "Pioneer XDJ-RR DJ System", "Electronics", 999.99, 5),
         (1477, "Off-Road R/C Car", "Toys", 39.99, 378),
         (5395, "Easy Bake Oven Set", "Toys", 24.99, 50);
 
