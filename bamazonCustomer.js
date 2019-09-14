@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Z5hjd875*!",
+    password: "",
     database: "bamazon"
 });
 
@@ -61,6 +61,7 @@ function purchaseOrder(idRequested, qtyRequested) {
             console.log("Thank you for your purchase!");
             console.log("Your total cost for: " + qtyRequested + " " +res[0].product_name + " is: $" + cost + ". Thanks!! :)");
 
+            
             // connection.query("UPDATE products SET stock_quantity = stock_quantity - " + qtyRequested + "WHERE item_id = " + idRequested);
 
             var updatedQty = res[0].stock_quantity - qtyRequested;
